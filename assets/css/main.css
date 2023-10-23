@@ -1040,6 +1040,8 @@ section {
 --------------------------------------------------------------*/
 .faq {
     padding-top: 80px;
+    background: rgb(249,250,254) !important;
+
 }
 
 .faq .accordion-item {
@@ -1089,7 +1091,7 @@ section {
 .faq .accordion-body {
     padding: 0 30px 25px 60px;
     border: 0;
-    background: rgba(14, 29, 52, 0.03);
+    background: rgb(249,250,254) !important;
     border-radius: 5px;
 }
 
