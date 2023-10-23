@@ -42,14 +42,24 @@ section {
 .section-header {
   text-align: center;
   padding-bottom: 20px;
+  font-size: 18px;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  color: rgb(102,179,210);
+  position: relative;
+  z-index: 2;
 }
 
 .section-header h2 {
-  font-size: 14px;
-  letter-spacing: 1px;
+  font-size: 16px;
   font-weight: 700;
-  margin: 0;
   text-transform: uppercase;
+  margin-bottom: 20px;
+  color: rgb(102,179,210);
+  position: relative;
+  z-index: 2;
+  padding-bottom: 20px;
 }
 
 .section-header p {
@@ -489,7 +499,7 @@ section {
 }
 
 .hero .hero-img {
-  text-align: right;
+  text-align: center;
 }
 
 @media (min-width: 1024px) {
@@ -1195,9 +1205,17 @@ section {
 /*--------------------------------------------------------------
 # Values
 --------------------------------------------------------------*/
+.main-back {
+  background: rgb(249,250,254);
+  background-size: cover;
+}
+
+
 .values {
   height: 100vh;
   padding: 15px;
+  /*background: rgb(242,245,252);*/
+  /*background-size: cover;*/
 }
 
 .values .box {
@@ -1272,6 +1290,8 @@ section {
 .features {
   padding: 15px;
   padding-bottom: 0;
+  background: url(../img/hero-bg.png) top center no-repeat;
+  background-size: cover;
 }
 
 
